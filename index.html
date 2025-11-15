@@ -7,44 +7,74 @@
 </head>
 <body>
 
-  <nav class="navbar">
-    <ul>
-      <li><a href="#prodotti">Prodotti</a></li>
-      <li><a href="#chi-siamo">Chi siamo</a></li>
-      <li><a href="#prenota">PRENOTA ORA!</a></li>
-      <li><a href="#carrello">Carrello</a></li>
-    </ul>
-  </nav>
+<nav class="navbar">
+  <ul>
+    <li><a href="#prodotti">Prodotti</a></li>
+    <li><a href="#chi-siamo">Chi siamo</a></li>
+    <li><a href="#prenota">PRENOTA ORA!</a></li>
+    <li><a href="#carrello">Carrello</a></li>
+  </ul>
+</nav>
 
   <header class="hero">
-    <div class="overlay">
-      <h1>M.E.M. & company</h1>
-      <p>Giochi, DVD e molto altro...</p>
-    </div>
-  </header>
+  <div class="overlay">
+    <h1>M.E.M. & company</h1>
+    <p>Giochi, DVD e molto altro...</p>
+  </div>
+</header>
+
 
   <main>
-    <section id="prodotti" class="sezione">
-      <h2>Prodotti</h2>
-      <p>Lista dei prodotti disponibili...</p>
+    <section id="prodotti">
+      <div class="card">
+        <h3>Mele rosse</h3>
+        <p>Dolci e croccanti, perfette per torte o snack.</p>
+        <p class="prezzo">€2,50 / kg</p>
+        <button class="btn add">Aggiungi</button>
+      </div>
+
+      <div class="card">
+        <h3>Marmellata di albicocche</h3>
+        <p>Fatta in casa, ingredienti semplici e naturali.</p>
+        <p class="prezzo">€4,00 / barattolo</p>
+        <button class="btn add">Aggiungi</button>
+      </div>
+
+      <div class="card">
+        <h3>Formaggio locale</h3>
+        <p>Stagionato 6 mesi, sapore intenso e armonioso.</p>
+        <p class="prezzo">€8,50 / pezzo</p>
+        <button class="btn add">Aggiungi</button>
+      </div>
     </section>
 
-    <section id="chi-siamo" class="sezione">
+    <section id="chi-siamo">
       <h2>Chi siamo</h2>
-      <p>Siamo una realtà giovane e dinamica, con passione per giochi, DVD e intrattenimento.</p>
+      <p>Siamo una piccola bancarella familiare, presente al mercato del sabato. Crediamo nella qualità, nella stagionalità e nel rapporto diretto con chi compra.</p>
     </section>
 
-    <section id="prenota" class="sezione">
-      <h2>PRENOTA ORA!</h2>
-      <p>Vuoi prenotare un prodotto? Contattaci via email o WhatsApp per confermare il tuo ordine.</p>
-    </section>
-
-    <section id="carrello" class="sezione">
-      <h2>Carrello</h2>
-      <p>Qui appariranno i prodotti che aggiungi.</p>
+    <section id="contatti">
+      <h2>Contatti</h2>
+      <p>📍 Mercato: Piazza Centrale, Renate (sabato, 8-13)</p>
+      <p>📧 Email: ciao@marmellateelatte.it</p>
+      <p>📞 Telefono: 333 1234567</p>
+      <p>📷 Instagram: @bancarella_mattia</p>
     </section>
   </main>
 
-  <script src="script.js"></script>
+<section id="carrello">
+  <h2>Carrello</h2>
+  <ul id="lista-carrello"></ul>
+  <p id="totale">Totale: €0,00</p>
+</section>
+
+
+<script src="script.js"></script>
 </body>
 </html>
+
+<section id="prenota">
+  <h2>PRENOTA ORA!</h2>
+  <p>Vuoi prenotare un prodotto o fare un ordine? Scrivici su WhatsApp al 333 1234567 oppure via email a ciao@marmellateelatte.it</p>
+</section>
+
